@@ -1,0 +1,13 @@
+[package]
+name = "repro"
+version = "0.1.0"
+edition = "2024"
+
+# Each repro case goes in src/bin/ as a separate binary
+# Example: src/bin/issue_001.rs -> cargo run -p repro --bin issue_001
+
+[dependencies]
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
